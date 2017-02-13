@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog_image" />
+
+    <TextView
+        android:id="@+id/vibrant"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibrant"/>
+
+    <TextView
+        android:id="@+id/light_vibrant"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light Vibrant"/>
+
+    <TextView
+        android:id="@+id/dark_vibrant"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dark Vibrant"/>
+
+    <TextView
+        android:id="@+id/muted"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Muted" />
+
+    <TextView
+        android:id="@+id/light_muted"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light Muted" />
+
+    <TextView
+        android:id="@+id/dark_muted"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dark Muted" />
+
+</LinearLayout>
